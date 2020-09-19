@@ -1,0 +1,563 @@
+/* MAIN MENU İÇERİĞİ */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.main_menu {
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    background-color: #35424A;
+    justify-content: space-between;
+    border-bottom: 3px solid purple;
+    align-items: center;
+}
+.content {
+    margin-left: 10vw;
+    /* padding-top: 15px; */
+    color:white;
+    font-size: 25px;
+}
+
+.content > h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.content > h2 span {
+    color: #a9508b;
+}
+
+.menu {
+   /* margin-top: 20px; */
+   margin-right: 10vw;
+   /* padding: 10px; */
+   /* background-color: red; */
+    
+}
+.menu ul li {
+    display: inline-block;
+    font-size: 20px;
+    list-style-type: none;
+}
+.menu a {
+    text-decoration: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.menu a:focus{
+    color:  rgb(170, 60, 170);
+}
+
+
+.style {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 15vh;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #35424A;
+    margin-bottom: 15px;
+}
+.content3 {
+    
+   color: white;
+   font-size: 25px;
+}
+.content3 > p {
+    margin-left: 8vw;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+}
+/* .content4 {
+    margin: 1.5%;
+} */
+.content4 {
+    display: flex;
+    justify-content: flex-start;
+    margin-right: 8vw;
+    width: 30vw;
+}
+
+#email {
+    width: 35vw;
+    height: 30px;
+    margin-top: 10px;
+}
+#submit {
+    margin-left: 1vw;
+    margin-top: 11px;
+    /* margin-top: 0.3vh; */
+    /* margin: 5px 5px; */
+    width: 12vw;
+    height: 30px;
+    border: 0;
+    color: white;
+    background-color: #a9508b;
+    text-align: center;
+    
+}
+.service-container {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 10;
+    margin-bottom: 2%;
+    
+}
+.left {
+    display: flex;
+   
+    flex-direction: column;
+    width: 55vw;
+   
+    
+}
+.leftcontent {
+    width: 50vw;
+    background-color: #e6e6e6;
+    padding: 5px 10px;
+    margin: 2px;
+    
+}
+.right {
+    width: 25vw;
+    height: 40vh;
+    text-align: left;
+   
+    color: white;
+}
+.rightcontent {
+    background-color:#35424a;
+    height: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 3%;
+}
+
+#text {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+#mail {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 15px;
+}
+#textarea {
+    width: 20vw;
+    height: 5vh;
+    margin-bottom: 15px;
+}
+#submitright {
+    color: white;
+    background-color: #a9508b;
+    padding: 5px;
+    width: 7vw;
+}
+
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: rgb(233, 223, 223);
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    flex-shrink: 10;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1200px) {
+    .service-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
+
+@media only screen and (min-width:724px) and (max-width:920px) {
+    body {
+        height: 120vh;
+    }
+    .main_menu {
+        justify-content: space-evenly;
+        height: 10vh;
+    }
+    .content {
+        margin-left: 3vw;
+        margin-right: 3%;
+    }
+    .content > h2 {
+        font-size: 20px;
+    }
+    .menu {
+        margin-right: 15vw;
+    }
+    .menu ul li {
+        font-size: 17px;
+    }
+    .menu a {
+        padding-left: 10px;
+    }
+    .style {
+        height: 15vh;
+        justify-content: space-evenly;
+        align-items: center;
+
+    }
+    .content3 > p {
+        margin-left: 3vw;
+        font-size: 20px;
+       
+    }
+    .content4{
+        margin-left: 4%;
+    }
+    #email {
+        height: 25px;
+    }
+    #submit {
+        height: 25px;
+    }
+    .service-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        margin-right: 3%;
+       
+        
+    }
+    .leftcontent {
+        width: 40vw;
+        background-color: #e6e6e6;
+        padding: 5px 10px;
+        margin: 2px;
+        
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+
+        width: 25vw;
+        height: 40vh;
+        text-align: left;
+        color: white;
+    }
+    .rightcontent {
+        background-color:#35424a;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 3%;
+    }
+    
+    #text {
+        width: 20vw;
+        height: 5vh;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    #mail {
+        width: 20vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #textarea {
+        width: 20vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #submitright {
+        color: white;
+        background-color: #a9508b;
+        padding: 5px;
+        width: 10vw;
+    }
+    
+    
+}
+@media only screen and (min-width:300px) and (max-width:425px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        width: 100vw;
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+    .content > h2 {
+        font-size: 14px;
+    }
+    .main_menu {
+        justify-content: space-between;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin-right: 5vw;
+        width: 36%;  
+      
+    }
+    
+    
+    .menu ul li {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    
+    .style{
+        display: flex;
+        justify-content: center;
+    }
+    .content3 {
+        margin-right: 10%;
+    }
+    .content3 > p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0vw;
+        /* margin-right: 25px; */
+        
+    }
+
+    .content4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #email {
+        width: 34vw;
+    }
+    #submit {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 20vw;
+        margin-bottom: 10px;
+    }
+    .service-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: left;
+        
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        margin-right: 10%;
+        margin-left: 5%;
+       
+        
+    }
+    .leftcontent {
+        width: 40vw;
+        background-color: #e6e6e6;
+        padding: 5px 10px;
+        margin: 2px;
+        
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+
+        width: 36vw;
+        height: 40vh;
+        text-align: left;
+        color: white;
+    }
+    .rightcontent {
+        background-color:#35424a;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 3%;
+    }
+    
+    #text {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    #mail {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #textarea {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #submitright {
+        color: white;
+        background-color: #a9508b;
+        padding: 5px;
+        width: 20vw;
+    }
+    
+    
+}
+@media only screen and (min-width:426px) and (max-width:723px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .content {
+        width: 100vw;
+        margin-left: 5vw;
+        margin-right: 2vw;
+    }
+    .content > h2 {
+        font-size: 14px;
+    }
+    .main_menu {
+        justify-content: space-between;
+    }
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+        margin-right: 5vw;
+        width: 36%;  
+      
+    }
+    
+    
+    .menu ul li {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    
+    
+    .style{
+        display: flex;
+        justify-content: center;
+    }
+    .content3 {
+        margin-right: 10%;
+    }
+    .content3 > p {
+        font-size: 15px;
+        text-align: center;
+        margin-left: 0vw;
+        /* margin-right: 25px; */
+        
+    }
+
+    .content4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    #email {
+        width: 34vw;
+    }
+    #submit {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 20vw;
+        margin-bottom: 10px;
+    }
+    .service-container {
+        width: 100vw;
+        height: auto;
+        display: flex;
+        justify-content: left;
+        
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        width: 45vw;
+        margin-right: 10%;
+        margin-left: 5%;
+       
+        
+    }
+    .leftcontent {
+        width: 40vw;
+        background-color: #e6e6e6;
+        padding: 5px 10px;
+        margin: 2px;
+        
+    }
+    .right {
+        display: flex;
+        flex-direction: column;
+
+        width: 36vw;
+        height: 40vh;
+        text-align: left;
+        color: white;
+    }
+    .rightcontent {
+        background-color:#35424a;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 3%;
+    }
+    
+    #text {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 20px;
+        margin-top: 5px;
+    }
+    #mail {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #textarea {
+        width: 30vw;
+        height: 5vh;
+        margin-bottom: 15px;
+    }
+    #submitright {
+        color: white;
+        background-color: #a9508b;
+        padding: 5px;
+        width: 20vw;
+    }
+
+    
+}
